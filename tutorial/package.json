@@ -24,5 +24,9 @@
     "react-router": "^2.0.1",
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
+  },
+  "devDependencies": {
+    "jquery": "^2.2.3",
+    "lodash": "^4.8.2"
   }
 }
