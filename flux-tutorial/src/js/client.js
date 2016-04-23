@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import ReactDOM from "react-dom";
 
-import Box from "./components/comments/Box";
+import TodoApp from "./components/TodoApp";
 
 const app = document.getElementById('app')
 
 ReactDOM.render(
-	<Box url="comments.json" pollInterval={2000}/>
+	<TodoApp />
 ,app)
